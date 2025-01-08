@@ -239,3 +239,40 @@ int main() {
     profit_or_loss(selling_price, cost_price);
     return 0;
 }*/
+
+/*#include <stdio.h>
+
+void discounted_price(double original_price, double discount_percentage){
+    if (discount_percentage > 20){
+        double discounted_price = original_price - (original_price * discount_percentage / 100);
+        printf("Discounted price: %.2f\n", discounted_price);
+    }
+}
+
+int main() {
+    double original_price;
+    printf("Enter the original price");
+    scanf("%lf", &original_price);
+    double discount_percentage;
+    printf("Enter the discount percentage");
+    scanf("%lf", &discount_percentage);
+    discounted_price(original_price, discount_percentage);
+    return 0;
+}*/
+
+/*#include <stdio.h>
+#include <math.h>
+
+double years_to_double(double initial_investment, double annual_rate_of_return) {
+    return log(2) / log(1 + annual_rate_of_return / 100);
+}
+
+int main() {
+    double initial_investment = 7000;
+    double annual_rate_of_return = 3;
+
+    double years = years_to_double(initial_investment, annual_rate_of_return);
+    printf("It will take %.2lf years to double the investment.\n", years);
+
+    return 0;
+}*/
