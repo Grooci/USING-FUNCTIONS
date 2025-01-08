@@ -128,3 +128,33 @@ int main() {
     return 0;
 }*/
 
+/*#include <stdio.h>
+
+
+void ProfitMargin(){
+    double Profit  = 30000000;
+    double SalesRevenue = 9000000;
+    double ProfitMargin = (Profit / SalesRevenue) * 100;
+    printf("The Profit Margin is UGX %.2lf\n", ProfitMargin);
+}
+
+int main() {
+    ProfitMargin();
+    return 0;
+}*/
+
+/*#include <stdio.h>
+
+
+void AnnualDepreciation(){
+    double Cost  = 10000000;
+    double ResidualValue = 2000000;
+    double UsefulLife = 5;
+    double AnnualDepreciation = (Cost - ResidualValue)/ UsefulLife;
+    printf("The AnnualDepreciation is UGX %.2lf\n", AnnualDepreciation);
+}
+
+int main() {
+    AnnualDepreciation();
+    return 0;
+}*/
