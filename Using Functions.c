@@ -29,3 +29,34 @@ int main() {
     return 0;
 }*/
 
+/*#include <stdio.h>
+#include <stdlib.h>
+
+void GrossProfit(){
+    double SalesRevenue = 15000000;
+    double COGS = 9000000;
+    double GrossProfit = SalesRevenue - COGS;
+
+    printf("The Gross Profit is UGX %.2lf\n", GrossProfit);
+}
+
+int main() {
+    GrossProfit();
+    return 0;
+}*/
+
+/*#include <stdio.h>
+#include <stdlib.h>
+
+void ROI(){
+    double Investment = 10000000;
+    double Profit = 12000000;
+    double ROI = (Investment/Profit) * 100;
+
+    printf("The ROI is UGX %.2lf\n", ROI);
+}
+
+int main() {
+    ROI();
+    return 0;
+}*/
