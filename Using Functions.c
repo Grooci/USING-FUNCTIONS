@@ -316,3 +316,41 @@ int main() {
     tax_rate(salary);
     return 0;
 }*/
+
+/*#include <stdio.h>
+
+void total_overdue_fee(double number_of_days_overdue, double daily_overdue_fee) {
+    double total_overdue_fee = number_of_days_overdue * daily_overdue_fee;
+    printf("Total overdue fee is %.2lf\n", total_overdue_fee);
+}
+
+int main() {
+    double number_of_days_overdue;
+    printf("Enter the number of days overdue");
+    scanf("%lf", &number_of_days_overdue);
+    double daily_overdue_fee;
+    printf("Enter the daily overdue fee");
+    scanf("%lf", &daily_overdue_fee);
+    total_overdue_fee(number_of_days_overdue, daily_overdue_fee);
+    return 0;
+}*/
+
+/*#include <stdio.h>
+
+void maximum_discount(double original_price, double discount_percentage) {
+    double maximum_discount = original_price * discount_percentage;
+    printf("Maximum discount is %.2lf\n", maximum_discount);
+}
+
+int main() {
+    double original_price;
+    printf("Enter the original price");
+    scanf("%lf", &original_price);
+    double discount_percentage;
+    printf("Enter the discount percentage");
+    scanf("%lf", &discount_percentage);
+    maximum_discount(original_price, discount_percentage);
+    return 0;
+}*/
+
+
