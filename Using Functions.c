@@ -158,3 +158,43 @@ int main() {
     AnnualDepreciation();
     return 0;
 }*/
+
+/*#include <stdio.h>
+
+double DiscountedPrice(double price, double discountPercentage) {
+    return price - (price * discountPercentage / 100);
+}
+
+void printDiscountedPrice(double price, double discountPercentage) {
+    double discountedPrice = DiscountedPrice(price, discountPercentage);
+    printf("The discounted price is UGX %.2lf\n", discountedPrice);
+}
+
+int main() {
+    double price;
+    printf("Enter the price");
+    scanf("%lf", &price);
+    double discountPercentage;
+    printf("Enter the discountPercentage");
+    scanf("%lf", &discountPercentage);
+    printDiscountedPrice(price, discountPercentage);
+    return 0;
+}*/
+
+/*#include <stdio.h>
+
+void printTaxAmount(double price, double TaxRate) {
+    double TaxAmount = price * (TaxRate / 100);
+    printf("The tax amount is UGX %.2lf\n", TaxAmount);
+}
+
+int main() {
+    double price;
+     printf("Enter the price");
+    scanf("%lf", &price);
+    double TaxRate;
+    printf("Enter the Tax Rate");
+    scanf("%lf", &TaxRate);
+    printTaxAmount(price, TaxRate);
+    return 0;
+}*/
