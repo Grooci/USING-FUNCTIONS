@@ -95,3 +95,36 @@ int main() {
     SimpleInterest();
     return 0;
 }*/
+
+/*#include <stdio.h>
+
+
+void Break_even_point(){
+    double FixedCosts  = 10000000;
+    double Price_per_Unit = 100000;
+    double Variable_Costs_per_Unit  = 50000;
+    double Break_even_point = FixedCosts / (Price_per_Unit - Variable_Costs_per_Unit);
+    printf("The Break_even_point is UGX %.2lf\n", Break_even_point);
+}
+
+int main() {
+    Break_even_point();
+    return 0;
+}*/
+
+/*#include <stdio.h>
+
+
+void FlatInterest(){
+    double investment_amount  = 1000000;
+    double time = 2;
+    double rate  = 0.04;
+    double FlatInterest = investment_amount * time * rate;
+    printf("The Flat Interest is UGX %.2lf\n", FlatInterest);
+}
+
+int main() {
+    FlatInterest();
+    return 0;
+}*/
+
