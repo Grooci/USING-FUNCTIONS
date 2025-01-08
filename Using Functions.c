@@ -198,3 +198,44 @@ int main() {
     printTaxAmount(price, TaxRate);
     return 0;
 }*/
+
+/*#include <stdio.h>
+
+void total_salary(double base_salary, double bonus_percentage) {
+    double total_salary = base_salary + (base_salary * bonus_percentage / 100);
+    printf("Total salary including bonus: %.2f\n", total_salary);
+}
+
+int main() {
+    double base_salary;
+    printf("Enter the base salary");
+    scanf("%lf", &base_salary);
+    double bonus_percentage;
+    printf("Enter the bonus percentage");
+    scanf("%lf", &bonus_percentage);
+    total_salary(base_salary, bonus_percentage);
+    return 0;
+}*/
+
+/*#include <stdio.h>
+
+void profit_or_loss(double selling_price, double cost_price) {
+    if (selling_price > cost_price) {
+        printf("Profit\n");
+    } else if (selling_price < cost_price) {
+        printf("Loss\n");
+    } else {
+        printf("No Profit, No Loss\n");
+    }
+}
+
+int main() {
+    double selling_price;
+    printf("Enter the selling price");
+    scanf("%lf", &selling_price);
+    double cost_price;
+    printf("Enter the cost price");
+    scanf("%lf", &cost_price);
+    profit_or_loss(selling_price, cost_price);
+    return 0;
+}*/
