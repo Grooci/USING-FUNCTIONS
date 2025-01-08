@@ -60,3 +60,38 @@ int main() {
     ROI();
     return 0;
 }*/
+
+/*#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+void MonthlyLoanPayment(){
+    double loan  = 50000000;
+    double annual_interest_rate = 12000000;
+    double rate  = 0.5;
+    double n = 12;
+    double MonthlyLoanPayment = (loan * rate * pow(1 + rate, n)) / (pow(1 + rate, n) - 1);
+    printf("The Monthly Loan Payment is UGX %.2lf\n", MonthlyLoanPayment);
+}
+
+int main() {
+    MonthlyLoanPayment();
+    return 0;
+}*/
+
+/*#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+void SimpleInterest(){
+    double loan  = 2000000;
+    double annual_interest_rate = 0.06;
+    double time  = 3;
+    double SimpleInterest= (loan * annual_interest_rate * time)/100;
+    printf("The Simple Interest is UGX %.2lf\n", SimpleInterest);
+}
+
+int main() {
+    SimpleInterest();
+    return 0;
+}*/
