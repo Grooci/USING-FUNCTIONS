@@ -276,3 +276,43 @@ int main() {
 
     return 0;
 }*/
+
+/*#include <stdio.h>
+
+void total_expenses(int num_items, double prices[]) {
+    double total_expenses = 0;
+    for (int i = 0; i < num_items; i++) {
+        total_expenses += prices[i];
+    }
+
+    printf("Total expenses of the company is %.2f\n", total_expenses);
+}
+
+int main() {
+    int num_items = 5;
+    double prices[] = {100.5, 250.75, 300.0, 150.25, 90.0};
+    total_expenses(num_items, prices);
+
+    return 0;
+
+}*/
+
+/*#include <stdio.h>
+
+void tax_rate(double salary) {
+    if (salary < 3000000) {
+        printf("10%%\n");
+    } else if (3000000 <= salary && salary <= 7000000) {
+        printf("15%%\n");
+    } else if(salary > 7000000){
+        printf("20%%\n");
+    }
+}
+
+int main() {
+    double salary;
+    printf("Enter the salary");
+    scanf("%lf", &salary);
+    tax_rate(salary);
+    return 0;
+}*/
